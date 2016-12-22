@@ -14,6 +14,10 @@
 		87D775B81DDCD8FE002C2BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D775B61DDCD8FE002C2BC5 /* LaunchScreen.storyboard */; };
 		87D775C31DDCD8FF002C2BC5 /* test2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D775C21DDCD8FF002C2BC5 /* test2Tests.swift */; };
 		87D775CE1DDCD8FF002C2BC5 /* test2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D775CD1DDCD8FF002C2BC5 /* test2UITests.swift */; };
+		87D775DE1DDCD985002C2BC5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D775DD1DDCD985002C2BC5 /* Car.swift */; };
+		87D775E01DDCD9F0002C2BC5 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D775DF1DDCD9F0002C2BC5 /* CarTableViewCell.swift */; };
+		87D775E51DDCDCB9002C2BC5 /* CarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D775E31DDCDCB9002C2BC5 /* CarTableViewController.swift */; };
+		87D775E61DDCDCB9002C2BC5 /* CarTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D775E41DDCDCB9002C2BC5 /* CarTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		87D775AA1DDCD8FE002C2BC5 /* test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D775AA1DDCD8FE002C2BC5 /* Prog3bjp0008fa16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prog3bjp0008fa16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D775AD1DDCD8FE002C2BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87D775AF1DDCD8FE002C2BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87D775B21DDCD8FE002C2BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		87D775C91DDCD8FF002C2BC5 /* test2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D775CD1DDCD8FF002C2BC5 /* test2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2UITests.swift; sourceTree = "<group>"; };
 		87D775CF1DDCD8FF002C2BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87D775DD1DDCD985002C2BC5 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = ../Car.swift; sourceTree = "<group>"; };
+		87D775DF1DDCD9F0002C2BC5 /* CarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		87D775E31DDCDCB9002C2BC5 /* CarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarTableViewController.swift; path = ../CarTableViewController.swift; sourceTree = "<group>"; };
+		87D775E41DDCDCB9002C2BC5 /* CarTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CarTableViewController.xib; path = ../CarTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +85,7 @@
 		87D775A11DDCD8FE002C2BC5 = {
 			isa = PBXGroup;
 			children = (
-				87D775AC1DDCD8FE002C2BC5 /* test2 */,
+				87D775AC1DDCD8FE002C2BC5 /* Prog3bjp0008Fa16 */,
 				87D775C11DDCD8FF002C2BC5 /* test2Tests */,
 				87D775CC1DDCD8FF002C2BC5 /* test2UITests */,
 				87D775AB1DDCD8FE002C2BC5 /* Products */,
@@ -87,23 +95,28 @@
 		87D775AB1DDCD8FE002C2BC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87D775AA1DDCD8FE002C2BC5 /* test2.app */,
+				87D775AA1DDCD8FE002C2BC5 /* Prog3bjp0008fa16.app */,
 				87D775BE1DDCD8FF002C2BC5 /* test2Tests.xctest */,
 				87D775C91DDCD8FF002C2BC5 /* test2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		87D775AC1DDCD8FE002C2BC5 /* test2 */ = {
+		87D775AC1DDCD8FE002C2BC5 /* Prog3bjp0008Fa16 */ = {
 			isa = PBXGroup;
 			children = (
+				87D775E31DDCDCB9002C2BC5 /* CarTableViewController.swift */,
+				87D775E41DDCDCB9002C2BC5 /* CarTableViewController.xib */,
+				87D775DD1DDCD985002C2BC5 /* Car.swift */,
 				87D775AD1DDCD8FE002C2BC5 /* AppDelegate.swift */,
 				87D775AF1DDCD8FE002C2BC5 /* ViewController.swift */,
 				87D775B11DDCD8FE002C2BC5 /* Main.storyboard */,
+				87D775DF1DDCD9F0002C2BC5 /* CarTableViewCell.swift */,
 				87D775B41DDCD8FE002C2BC5 /* Assets.xcassets */,
 				87D775B61DDCD8FE002C2BC5 /* LaunchScreen.storyboard */,
 				87D775B91DDCD8FE002C2BC5 /* Info.plist */,
 			);
+			name = Prog3bjp0008Fa16;
 			path = test2;
 			sourceTree = "<group>";
 		};
@@ -142,7 +155,7 @@
 			);
 			name = test2;
 			productName = test2;
-			productReference = 87D775AA1DDCD8FE002C2BC5 /* test2.app */;
+			productReference = 87D775AA1DDCD8FE002C2BC5 /* Prog3bjp0008fa16.app */;
 			productType = "com.apple.product-type.application";
 		};
 		87D775BD1DDCD8FF002C2BC5 /* test2Tests */ = {
@@ -204,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 87D775A51DDCD8FE002C2BC5 /* Build configuration list for PBXProject "test2" */;
+			buildConfigurationList = 87D775A51DDCD8FE002C2BC5 /* Build configuration list for PBXProject "Prog3bjp0008Fa16" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D775E61DDCDCB9002C2BC5 /* CarTableViewController.xib in Resources */,
 				87D775B81DDCD8FE002C2BC5 /* LaunchScreen.storyboard in Resources */,
 				87D775B51DDCD8FE002C2BC5 /* Assets.xcassets in Resources */,
 				87D775B31DDCD8FE002C2BC5 /* Main.storyboard in Resources */,
@@ -258,6 +272,9 @@
 			files = (
 				87D775B01DDCD8FE002C2BC5 /* ViewController.swift in Sources */,
 				87D775AE1DDCD8FE002C2BC5 /* AppDelegate.swift in Sources */,
+				87D775E51DDCDCB9002C2BC5 /* CarTableViewController.swift in Sources */,
+				87D775E01DDCD9F0002C2BC5 /* CarTableViewCell.swift in Sources */,
+				87D775DE1DDCD985002C2BC5 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +369,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Prog3bjp0008Fa16;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -390,6 +408,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Prog3bjp0008Fa16;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -401,8 +420,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = au.test2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = au.prog3bjp0008fa16;
+				PRODUCT_NAME = Prog3bjp0008fa16;
 			};
 			name = Debug;
 		};
@@ -412,8 +431,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = au.test2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = au.prog3bjp0008fa16;
+				PRODUCT_NAME = Prog3bjp0008fa16;
 			};
 			name = Release;
 		};
@@ -466,7 +485,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		87D775A51DDCD8FE002C2BC5 /* Build configuration list for PBXProject "test2" */ = {
+		87D775A51DDCD8FE002C2BC5 /* Build configuration list for PBXProject "Prog3bjp0008Fa16" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87D775D01DDCD8FF002C2BC5 /* Debug */,
@@ -482,6 +501,7 @@
 				87D775D41DDCD8FF002C2BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87D775D51DDCD8FF002C2BC5 /* Build configuration list for PBXNativeTarget "test2Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +510,7 @@
 				87D775D71DDCD8FF002C2BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87D775D81DDCD8FF002C2BC5 /* Build configuration list for PBXNativeTarget "test2UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +519,7 @@
 				87D775DA1DDCD8FF002C2BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
